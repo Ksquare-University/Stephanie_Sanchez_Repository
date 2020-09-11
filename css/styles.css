@@ -338,14 +338,30 @@ img.projectsim{
 
 
 /*Interests*/
+div.relleno h3{
+    height: 3em;
+}
 div.interests{
     text-align: center;
     align-items: center;
     align-content: center;
-    background-color: turquoise;
 }
 img.interest{
     max-width: 100%;
+    max-height: 400px;
+
+    -webkit-filter: contrast(90%);
+    filter: contrast(90%);
+    }
+
+div.i_carousel{
+    max-height: 400px;
+}
+div.i_carousel h3{
+    font-size: 2em;
+    font-family: 'Solway', serif;
+    -webkit-text-stroke: 0.5px black; /* width and color */
+     color: white
 }
 
 /*Not tested*/
