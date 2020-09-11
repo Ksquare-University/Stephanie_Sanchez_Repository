@@ -30,7 +30,6 @@ body{
 nav{
     width: 100%;
     font-family: 'Solway', serif;
-    color: yellow;
     /*justify-items: flex-end;*/
     height: 5em;
     background-color: rgba(26, 25, 25);
@@ -40,6 +39,9 @@ nav{
     top:0;
     z-index:950;
     
+}
+div.btn-group a{
+    color:#ff4b5c ;
 }
 div.container{
     width: 100%;
@@ -74,7 +76,7 @@ div.row{
 }
 /*padding para anchor*/
 h2.sect{ 
-    padding-top: 10%;
+    padding-top: 15%;
     margin-top: -10%;
 
 }
@@ -240,7 +242,7 @@ div.txt{
     background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(13, 150, 172, 0.715) 100%);
     width: 100%;
     text-align: center;
-    margin:0;
+    margin-right:0;
     height: 220px;
     vertical-align: middle;
     align-items:center;
@@ -310,6 +312,28 @@ footer{
     color: white;
     text-align: right;
     margin-right: 5px;
+}
+div.whiterow{
+    background-color: white;
+}
+
+div.projectcards{
+    background: #66bfbf50;
+
+}
+div.projectcards button{
+    color:black;
+    font-size: 0.7em;
+}
+div.projectsrow{
+    background-color: transparent;
+}
+
+img.projectsim{
+    border-radius: 5px;
+    -webkit-filter: opacity(80%);
+    filter:opacity(80%)
+    
 }
 
 /*Not tested*/
