@@ -336,6 +336,18 @@ img.projectsim{
     
 }
 
+
+/*Interests*/
+div.interests{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: turquoise;
+}
+img.interest{
+    max-width: 100%;
+}
+
 /*Not tested*/
 @media (min-width:360px) {
     html{
