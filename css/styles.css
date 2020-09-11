@@ -510,6 +510,13 @@ div.i_carousel h3{
     div.secciones2 ul li{
         font-size: 1.2em;
     }
+
+        /*padding para anchor*/
+    h2.sect{ 
+        padding-top: 10%;
+        margin-top: -10%;
+
+    }
     
 
 }
