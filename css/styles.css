@@ -349,9 +349,9 @@ img.interest{
 }
 
 /*Not tested*/
-@media (min-width:360px) {
+@media (min-width:260px) {
     html{
-        font-size: 13px;
+        font-size: 11px;
         font-family: 'Solway', serif;
         
     }
@@ -372,6 +372,46 @@ img.interest{
     div.secciones2 ul li{
         font-size: 1em;
     }
+    div.imagecol{
+        max-width: 70%;
+    }
+    .col-sm.skills2,.col-sm.skills1 {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 85%;
+
+    }
+    div.imgcol{
+        max-width: 100%;
+    }
+}
+
+@media (min-width:360px) {
+    html{
+        font-size: 16px;
+        font-family: 'Solway', serif;
+        
+    }
+    .tituloGeneral h1{
+        font-size: 2em;
+    }
+    body{
+        margin:0;
+    }
+    svg.grandes{
+        width:0.5em;
+        height:0.5em;
+    }
+    svg.chicos{
+        width: 0.2em;
+        height:0.2em;
+    }
+    div.imagecol{
+        max-width: 60%;
+    }
+    div.secciones2 ul li{
+        font-size: 1em;
+    }
     
     .col-sm.skills2,.col-sm.skills1 {
         margin-left: 10%;
@@ -380,7 +420,7 @@ img.interest{
 
     }
     div.imgcol{
-        max-width: 140px;
+        max-width: 50%;
     }
 }
 @media (min-width:576px) {
@@ -405,6 +445,9 @@ img.interest{
     svg.chicos{
         width: 0.3em;
         height:0.3em;
+    }
+    div.imgcol{
+        max-width: 100%;
     }
 
     div.secciones2 ul li{
@@ -476,10 +519,6 @@ img.interest{
     
     body{
         margin-top: 0;
-        /*
-        margin-left: 5% !important;
-        margin-right: 5% !important ;
-        */
     }
 
     svg.grandes{
