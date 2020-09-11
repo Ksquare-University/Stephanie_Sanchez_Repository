@@ -32,7 +32,7 @@ nav{
     font-family: 'Solway', serif;
     color: yellow;
     /*justify-items: flex-end;*/
-    height: 60px;
+    height: 5em;
     background-color: rgba(26, 25, 25);
     border-bottom: 8px  solid;
     border-color:#ff4b5c ;
@@ -44,16 +44,27 @@ nav{
 div.container{
     width: 100%;
     max-width: 100%;
+    height: 100%;
 }
 button.menug{
     color:white; /*color de letra de menu*/
+    font-size: 1.5em;
 }
-div.menu{
-    max-height: 160px;
-    overflow: scroll;
-    overflow-x: hidden;
-    color:yellow;
-    background-color: rgba(0, 0, 0, 0.322);
+a.dropdown-item{
+    color:white;
+    font-size: 1.3em;
+}
+button.btn-default{
+    font-size: 1.5em;
+}
+ul.menuprincipal{
+    max-height: 300px;
+
+    background-color: rgba(0, 0, 0, 0.400);
+}
+ul.menusecundario{
+    max-height: 300px;
+    background-color: rgba(0, 0, 0, 0.400);
 }
 
 div.row{
@@ -61,9 +72,10 @@ div.row{
     margin-left: 0;
     margin-right: 0;
 }
-h2.sect{
-    padding-top: 50px;
-    margin-top: -50px;
+/*padding para anchor*/
+h2.sect{ 
+    padding-top: 10%;
+    margin-top: -10%;
 
 }
 
@@ -182,7 +194,8 @@ h2.sect{
 p.losep{
     text-align: center;
     color:White;
-    margin: 5%;
+    font-size: 1.2rem;
+    margin: 7%;
 }
 .secciones2{
     font-family: 'Solway', serif;
@@ -194,6 +207,7 @@ p.losep{
 }
 div.skills1{
     /*background-color:#0565747a;*/
+    margin: 0;
     background: rgb(224,236,228);
     background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(102,191,191,1) 100%);
     padding-left: 0;
@@ -205,31 +219,55 @@ div.skills1{
 
 div.skills2{
     /*background-color:#66bfbf81;*/
+    margin: 0;
     background: rgb(224,236,228);
-    background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(5,102,116,0.7150210425967262) 100%);
+    background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(13, 150, 172, 0.715) 100%);
     padding-left: 0;
     padding-right: 0;
+    box-shadow: 
+        inset 0px 0px 8px -10px #f3d9db,
+        inset 0px -0px 8px -10px #f3d9db;
+}
+
+
+div.row2{
+    align-items: center;
+    height:auto;
+    background-color: white;
+}
+div.txt{
+    background: rgb(224,236,228);
+    background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(13, 150, 172, 0.715) 100%);
+    width: 100%;
+    text-align: center;
+    margin:0;
+    height: 200px;
     vertical-align: middle;
     align-items:center;
     align-content: center;
     place-items: center;
+    padding-top: 6%;
+    padding-bottom: 8%;
     box-shadow: 
-        inset 0px 0px 8px -10px #f3d9db,
-        inset 0px -0px 8px -10px #f3d9db;
+        inset 0px 0px 8px -10px white,
+        inset 0px -0px 8px -10px white;
 
 }
-
+div.losetxtcenter{
+    font-size: 1.2em;
+    height: 100;
+    padding-top: 35px;
+}
 div.imagecol{
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin:auto 0 0 0 0 !important;
+    margin:0 0 0 0 !important;
     align-items: center;
     place-items: center;
     align-content: center;
     background-color: white;
     box-sizing: unset;
-    max-width: 250px;
+    width:100%;
+    max-width: 200px;
 
 }
 img{
@@ -248,19 +286,31 @@ ul{
     justify-content: space-around;
     margin: auto;
 }
-svg.grandes{
-    width:0.6em;
-    height:0.6em;
-    fill:rgb(14, 6, 6);
+
+.menuprincipal li:hover > ul.dropdown-menu {
+    display: block;
 }
-svg.chicos{
-    width: 0.8em;
-    height:0.2em;
+
+.dropdown-submenu {
+    position:relative;
 }
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-30px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+
+
 /*Not tested*/
 @media (min-width:360px) {
     html{
-        font-size: 12px;
+        font-size: 13px;
         font-family: 'Solway', serif;
         
     }
@@ -280,12 +330,22 @@ svg.chicos{
     }
     div.secciones2 ul li{
         font-size: 1em;
-    }  
+    }
+    
+    .col-sm.skills2,.col-sm.skills1 {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 85%;
+
+    }
+    div.imgcol{
+        max-width: 140px;
+    }
 }
 @media (min-width:576px) {
 
     html{
-        font-size: 13px;
+        font-size: 15px;
         font-family: 'Solway', serif;
         
     }
@@ -295,12 +355,6 @@ svg.chicos{
     
     body{
         margin-top: 0;
-       
-        
-        /*
-        margin-left: 5% !important;
-        margin-right: 5% !important ;
-        */
     }
     
     svg.grandes{
@@ -315,6 +369,11 @@ svg.chicos{
     div.secciones2 ul li{
         font-size: 1.2em;
     }
+    .col-sm.skills2,.col-sm.skills1 {
+        margin:0;
+        width: 100%;
+
+    }
     
 
 
@@ -323,7 +382,7 @@ svg.chicos{
 @media (min-width:768px) {
 
     html{
-        font-size: 15px;
+        font-size: 16px;
         font-family: 'Solway', serif;
         
     }
@@ -351,13 +410,14 @@ svg.chicos{
     div.secciones2 ul li{
         font-size: 1.2em;
     }
+    
 
 }
 
 @media (min-width:992px) {
 
     html{
-        font-size: 15px;
+        font-size: 18px;
         font-family: 'Solway', serif;
         
     }
@@ -367,7 +427,8 @@ svg.chicos{
     div.todo{
         align-items: center;
         margin: 0 auto;
-        max-width: 80%;
+        width: 80%;
+        max-width: 1000px;
         justify-content: center;
         padding: 0;
     }
@@ -394,5 +455,6 @@ svg.chicos{
     }
 
 }
+
 
 
