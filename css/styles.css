@@ -241,12 +241,12 @@ div.txt{
     width: 100%;
     text-align: center;
     margin:0;
-    height: 200px;
+    height: 220px;
     vertical-align: middle;
     align-items:center;
     align-content: center;
     place-items: center;
-    padding-top: 6%;
+    padding-top: 4%;
     padding-bottom: 8%;
     box-shadow: 
         inset 0px 0px 8px -10px white,
@@ -306,6 +306,11 @@ ul{
     transform: rotate(-90deg);
 } 
 
+footer{
+    color: white;
+    text-align: right;
+    margin-right: 5px;
+}
 
 /*Not tested*/
 @media (min-width:360px) {
