@@ -42,10 +42,11 @@ nav{
 }
 div.socialnetworks{
     display: block;
-    max-width: 200 px;
+    float:right;
 }
 div.btn-group a{
     color:#ff4b5c ;
+    justify-content: flex-end;
 }
 div.container{
     width: 100%;
@@ -60,6 +61,10 @@ button.menug{
 a.dropdown-item{
     color:white;
     font-size: 1.3em;
+}
+.menug:hover {
+    color: #ff4b5c !important;
+    text-decoration: underline;
 }
 button.btn-default{
     font-size: 1.5em;
@@ -78,6 +83,9 @@ div.row{
     background-color: rgba(26, 25, 25);
     margin-left: 0;
     margin-right: 0;
+}
+div.light{
+    background-color: rgba(224,236,228);
 }
 /*padding para anchor*/
 h2.sect{ 
@@ -229,8 +237,7 @@ div.skills2{
     margin: 0;
     background: rgb(224,236,228);
    /* background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(13, 150, 172, 0.715) 100%);*/
-   background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(100,212,229,0.6730042358740371) 100%);
-
+   background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(102,191,191,0.6029762246695554) 100%);
    padding-left: 0;
     padding-right: 0;
     box-shadow: 
@@ -246,7 +253,7 @@ div.row2{
 }
 div.txt{
     background: rgb(224,236,228);
-    background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(13, 150, 172, 0.715) 100%);
+    background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(102,191,191,1) 100%);
     width: 100%;
     text-align: center;
     margin-right:0;
