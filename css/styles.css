@@ -212,6 +212,12 @@ p.losep{
     font-size: 1.2rem;
     margin: 7%;
 }
+p.small_losep{
+    text-align: right;
+    color:White;
+    font-size: 1rem;
+    margin: 2%;
+}
 .secciones2{
     font-family: 'Solway', serif;
     text-align: center;
