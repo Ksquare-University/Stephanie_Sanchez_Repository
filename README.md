@@ -10,21 +10,20 @@ Hello Everyone! My name is **Stephanie Sánchez** and I made this webpage for yo
 
 - Interests​
 
-#​
 
-Feel free to visit it here : [Link to my awesome page][portfolio]​
+Feel free to visit it here : [Link to my awesome page](https://ksquare-university.github.io/Stephanie_Sanchez_Repository/)
 
 If you have any doubt please contact me in any of the following:​
 
-- [Linked In][linkedin]​
+- [Linked In](https://www.linkedin.com/in/sacs/)
 
-- [E-mail][mail]​
+- [E-mail](mailto:stephanie.sanchez@theksquaregroup.com)
 
-#​
+​
 
 For more projects you can also follow me on my personal github:​
 
-- [Github][github]​
+- [Github](https://github.com/steffsacs)
 
 ​
 
