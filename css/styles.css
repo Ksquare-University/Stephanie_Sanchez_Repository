@@ -14,7 +14,7 @@ body{
     align-items: center;
     align-content: center;
     /*background-color: #f0e8e8 !important;*/
-    background-color:#000000 !important ;
+    background-color:#e0ece4 !important ; /* culpa de paola era negro*/
     margin-top: 0;
 
 }
@@ -32,7 +32,7 @@ nav{
     font-family: 'Solway', serif;
     /*justify-items: flex-end;*/
     height: 5em;
-    background-color: rgba(26, 25, 25);
+    background-color: #e0ece4;  /*rgba(26, 25, 25); /*culpa de paola*/
     border-bottom: 8px  solid;
     border-color:#ff4b5c ;
     position: sticky;
@@ -55,7 +55,7 @@ div.container{
     padding:0;
 }
 button.menug{
-    color:white; /*color de letra de menu*/
+    color: #ff4b5c;/* white; /*color de letra de menu  culpa de paola*/ 
     font-size: 1.5em;
 }
 a.dropdown-item{
@@ -63,7 +63,7 @@ a.dropdown-item{
     font-size: 1.3em;
 }
 .menug:hover {
-    color: #ff4b5c !important;
+    color: black; /* #ff4b5c !important; por culpa de paola*/
     text-decoration: underline;
 }
 button.btn-default{
@@ -80,7 +80,7 @@ ul.menusecundario{
 }
 
 div.row{
-    background-color: rgba(26, 25, 25);
+    background-color: #e0ece4 ;/*rgba(26, 25, 25); culpa de paola */
     margin-left: 0;
     margin-right: 0;
 }
@@ -112,8 +112,9 @@ h2.sect{
     min-height: 12em;
     padding: 0;
     width: 100%;
-    background-image: linear-gradient(45deg,#e0ece4,#66bfbf);
-    box-shadow: inset 0 0 0.3vw 0.3vw #f3d9db;
+    background: #66bfbf;
+    /*background-image: linear-gradient(45deg,#e0ece4,#66bfbf); por culpa de paola */
+    box-shadow: inset 0 0 0.3vw 0.3vw #e0ece4;
 }
 .tituloGeneral h1{
     font-size: 3em;
@@ -201,20 +202,20 @@ h2.sect{
     align-content: center;
     place-items: center;
     position: relative;
-    background-color: #ff4b5c;
-    background-image: linear-gradient(45deg,#e0ece4, #ff4b5c);
+    background-color: #ff4b5de3;
+    /*background-image: linear-gradient(45deg,#e0ece4, #ff4b5c); por culpa de paola*/
     box-shadow: inset 0 0 0.3vw 0.3vw #f3d9db;
 }
 
 p.losep{
     text-align: center;
-    color:White;
+    color:black; /* White; por culpa de paola*/
     font-size: 1.2rem;
     margin: 7%;
 }
-p.small_losep{
+.small_losep{
     text-align: right;
-    color:White;
+    color:black ;/*White; culpa de paola*/
     font-size: 1rem;
     margin: 2%;
 }
@@ -229,26 +230,25 @@ p.small_losep{
 div.skills1{
     /*background-color:#0565747a;*/
     margin: 0;
-    background: rgb(224,236,228);
-    background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(102,191,191,1) 100%);
+    background:#66bfbfd7;
+    /*background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(102,191,191,1) 100%); paola*/
     padding-left: 0;
     padding-right: 0;
     box-shadow: 
-        inset 0px 0px 8px -10px #f3d9db,
-        inset 0px -0px 8px -10px #f3d9db;
+        inset 0px 0px 8px -10px #e0ece4,
+        inset 0px -0px 8px -10px #e0ece4;
 }
 
 div.skills2{
     /*background-color:#66bfbf81;*/
     margin: 0;
-    background: rgb(224,236,228);
-   /* background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(13, 150, 172, 0.715) 100%);*/
-   background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(102,191,191,0.6029762246695554) 100%);
+    background: #e0ece4;
+   /*background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(102,191,191,0.6029762246695554) 100%); por culpa de paola*/
    padding-left: 0;
     padding-right: 0;
     box-shadow: 
-        inset 0px 0px 8px -10px #f3d9db,
-        inset 0px -0px 8px -10px #f3d9db;
+        inset 0px 0px 8px -10px #e0ece4,
+        inset 0px -0px 8px -10px #e0ece4;
 }
 
 
@@ -258,8 +258,8 @@ div.row2{
     background-color: white;
 }
 div.txt{
-    background: rgb(224,236,228);
-    background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(102,191,191,1) 100%);
+    background: #66bfbfd7 ;/*rgb(224,236,228);  por culpa de paola*/
+    /*background: radial-gradient(circle, rgba(224,236,228,1) 0%, rgba(102,191,191,1) 100%);*/
     width: 100%;
     text-align: center;
     margin-right:0;
@@ -280,6 +280,9 @@ div.losetxtcenter{
     height: 100;
     padding-top: 35px;
 }
+div.menurow{
+    max-height: 100%;
+}
 div.imagecol{
     text-align: center;
     margin:0 0 0 0 !important;
@@ -299,6 +302,14 @@ img{
     place-items: center;
     align-content: center;
 }
+div.logo{
+        
+    max-height: 5px;
+}
+img.logito{
+    max-height: 5em ;
+    width: auto;
+ }
 
 ul{
     padding-inline-start: 30px;
@@ -337,9 +348,18 @@ div.whiterow{
     background-color: white;
 }
 
-div.projectcards{
-    background: #66bfbf50;
+div.projectcardsgeneral{
+    background: white;
 
+}
+div.card-header{
+    background: #ff4b5de3
+}
+div.card-body{
+    background-color: #ff4b5da9 ;
+}
+div button.txt_header{
+    font-family: 'Solway', serif;
 }
 div.projectcards button{
     color:black;
@@ -431,6 +451,7 @@ div.i_carousel h3{
     .tituloGeneral h1{
         font-size: 2em;
     }
+
     body{
         margin:0;
     }
@@ -442,6 +463,16 @@ div.i_carousel h3{
         width: 0.2em;
         height:0.2em;
     }
+    div.logo{
+        
+        max-height: 10px;
+    }
+    img.logito{
+        max-height: 10em ;
+        width: auto;
+        max-width: 150%;
+     }
+
     div.imagecol{
         max-width: 60%;
     }
@@ -473,6 +504,14 @@ div.i_carousel h3{
     body{
         margin-top: 0;
     }
+    div.logo{
+        
+        max-height: 5px;
+    }
+    img.logito{
+        max-height: 5em ;
+        width: auto;
+     }
     
     svg.grandes{
         width:0.7em;
