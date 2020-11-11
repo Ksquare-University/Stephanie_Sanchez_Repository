@@ -19,6 +19,8 @@ If you have any doubt please contact me in any of the following:​
 
 - [E-mail](mailto:stephanie.sanchez@theksquaregroup.com)
 
+- Telephone : 5533550361
+
 ​
 
 For more projects you can also follow me on my personal github:​
